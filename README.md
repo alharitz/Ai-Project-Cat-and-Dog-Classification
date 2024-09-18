@@ -1,3 +1,6 @@
+Here’s an updated `README.md` file based on the fact that you're using Jupyter notebooks:
+
+```markdown
 # Cat and Dog Breed Classification using CNN
 
 This repository contains the implementation of a Convolutional Neural Network (CNN) model for classifying cat and dog breeds. The project is part of my college AI coursework, utilizing a dataset sourced from Kaggle.
@@ -18,14 +21,14 @@ The main goal of this project is to build a CNN model that can accurately classi
 ### Features
 
 - **CNN Architecture**: Built using TensorFlow and Keras for efficient feature extraction and classification.
-- **Google Colab**: Used for model training and experimentation.
-- **Visual Studio Code**: Used for code development and debugging.
+- **Google Colab**: Used for model training and experimentation via Jupyter notebooks.
+- **Visual Studio Code**: Used for development and debugging when needed.
 - **Anaconda**: Managed dependencies and Python environment.
 - **Performance Metrics**: Accuracy, Precision, Recall, F1-Score.
 
 ## Installation
 
-To run this project locally, follow these steps:
+To run this project locally or in Google Colab, follow these steps:
 
 1. Clone this repository:
    ```bash
@@ -44,18 +47,18 @@ To run this project locally, follow these steps:
 
 4. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/imsparsh/animal-breed-cats-and-dogs) and place it in the appropriate folder.
 
+5. Open the Jupyter notebook (`cat_dog_classification.ipynb`) in Google Colab or locally:
+   - In Google Colab, upload the notebook and dataset files to your environment.
+   - If running locally, launch the notebook using:
+     ```bash
+     jupyter notebook
+     ```
+
 ## Usage
 
-1. Open the notebook in Google Colab or run it locally in VS Code.
-2. Modify any parameters in the notebook, such as batch size or learning rate, if necessary.
-3. Train the model:
-   ```bash
-   python train.py
-   ```
-4. Evaluate the model on the test set:
-   ```bash
-   python evaluate.py
-   ```
+1. Run the entire notebook `cat_dog_classification.ipynb` to preprocess the data, train the model, and evaluate the results.
+2. Modify any hyperparameters, such as batch size or learning rate, in the notebook if necessary.
+3. After training, the model evaluation and classification results will be displayed in the notebook.
 
 ## Model Architecture
 
@@ -87,10 +90,6 @@ The model achieved promising classification accuracy on the test dataset. Furthe
 1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 45ms/step
 1022.jpg: keeshond
 1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 44ms/step
-1105.jpg: japanese_chin
-1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 51ms/step
-839.jpg: scottish_terrier
-1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 43ms/step
 ```
 
 ## Challenges
@@ -109,7 +108,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 **Author**: [Your Name](https://www.linkedin.com/in/your-linkedin)
-
 ```
 
-This `README.md` provides a comprehensive overview of your project, from installation to model details and results. You can modify the details to suit your specific implementation.
+This version reflects that you're using Jupyter notebooks (`.ipynb`) for the project. Feel free to adjust the file names and details as necessary.
