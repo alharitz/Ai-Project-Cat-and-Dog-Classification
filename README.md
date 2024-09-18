@@ -1,6 +1,4 @@
-Here’s an updated `README.md` file based on the fact that you're using Jupyter notebooks:
 
-```markdown
 # Cat and Dog Breed Classification using CNN
 
 This repository contains the implementation of a Convolutional Neural Network (CNN) model for classifying cat and dog breeds. The project is part of my college AI coursework, utilizing a dataset sourced from Kaggle.
