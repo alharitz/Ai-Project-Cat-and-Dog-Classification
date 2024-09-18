@@ -26,28 +26,33 @@ The main goal of this project is to build a CNN model that can accurately classi
 
 ## Installation
 
-To run this project locally or in Google Colab, follow these steps:
+To set up your environment and run this project, follow these steps:
 
-1. Clone this repository:
+1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/cat-dog-breed-classification.git
+   git clone https://github.com/alharitz/Ai-Project-Cat-and-Dog-Classification.git
    ```
-2. Navigate to the project directory:
+2. **Navigate to the Project Directory**:
    ```bash
-   cd cat-dog-breed-classification
+   cd Ai-Project-Cat-and-Dog-Classification
    ```
-3. Install the required dependencies using Anaconda:
-   ```bash
-   conda create --name cnn-env python=3.8
-   conda activate cnn-env
-   pip install -r requirements.txt
-   ```
+3. **Set Up the Environment**:
+   - If you are using Anaconda, create and activate a new environment:
+     ```bash
+     conda create --name cnn-env python=3.8
+     conda activate cnn-env
+     ```
+   - Install the required dependencies using `requirements.txt`:
+     ```bash
+     pip install -r requirements.txt
+     ```
 
-4. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/imsparsh/animal-breed-cats-and-dogs) and place it in the appropriate folder.
+4. **Download the Dataset**:
+   - Obtain the dataset from [Kaggle](https://www.kaggle.com/datasets/imsparsh/animal-breed-cats-and-dogs) and place it in the appropriate folder.
 
-5. Open the Jupyter notebook (`cat_dog_classification.ipynb`) in Google Colab or locally:
-   - In Google Colab, upload the notebook and dataset files to your environment.
-   - If running locally, launch the notebook using:
+5. **Open the Jupyter Notebook**:
+   - You can use Google Colab by uploading the notebook and dataset files to your environment.
+   - Alternatively, if running locally, launch the notebook using:
      ```bash
      jupyter notebook
      ```
@@ -108,4 +113,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 **Author**: [Your Name](https://www.linkedin.com/in/your-linkedin)
 ```
 
-This version reflects that you're using Jupyter notebooks (`.ipynb`) for the project. Feel free to adjust the file names and details as necessary.
+This updated `README.md` includes a section on setting up the environment with `requirements.txt`. Adjust the details as needed for your specific implementation.
