@@ -110,7 +110,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-**Author**: [Your Name](https://www.linkedin.com/in/your-linkedin)
+**Author**: [Fatih Achmad Al-Haritz](https://www.linkedin.com/in/fatih-achmad-al-haritz-6bb952269/)
 ```
 
 This updated `README.md` includes a section on setting up the environment with `requirements.txt`. Adjust the details as needed for your specific implementation.
