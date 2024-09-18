@@ -72,10 +72,25 @@ The model achieved promising classification accuracy on the test dataset. Furthe
 
 ### Example Output:
 ```
-Test Accuracy: 85%
-Precision: 83%
-Recall: 84%
-F1-Score: 84%
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 52ms/step
+302.jpg: birman
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 51ms/step
+529.jpg: siamese
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 40ms/step
+866.jpg: bengal
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 48ms/step
+253.jpg: samoyed
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 41ms/step
+642.jpg: siamese
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 42ms/step
+11.jpg: samoyed
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 45ms/step
+1022.jpg: keeshond
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 44ms/step
+1105.jpg: japanese_chin
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 51ms/step
+839.jpg: scottish_terrier
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 43ms/step
 ```
 
 ## Challenges
